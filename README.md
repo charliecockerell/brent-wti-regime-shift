@@ -22,8 +22,9 @@
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| Cointegration β (log-Brent on log-WTI) | TBD | `notebooks/01_cointegration.ipynb` |
-| ECM half-life of mean reversion | TBD days | `notebooks/01_cointegration.ipynb` |
+| Cointegration β (log-Brent on log-WTI) | 1.094 (95% CI [1.086, 1.101]) | `notebooks/01_cointegration.ipynb` |
+| ECM half-life of mean reversion | 24.1 days | `notebooks/01_cointegration.ipynb` |
+| Engle-Granger cointegration p-value | < 0.001 (Johansen rank 1) | `notebooks/01_cointegration.ipynb` |
 | Peak spread-z, 28 Feb 2026 event | TBD | `notebooks/02_event_study.ipynb` |
 | Days to renormalisation, median historical | TBD | `notebooks/02_event_study.ipynb` |
 | OOS Sharpe (2019–present), test set | TBD | `notebooks/03_backtest.ipynb` |
