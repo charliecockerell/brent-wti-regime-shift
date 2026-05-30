@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual env
+.venv/
+venv/
+
+# Environment / secrets
+.env
+
+# Data (reproducible via `make data` — keep only gitkeeps)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# OS / editor
+.DS_Store
+.claude/
+*.swp
+*.swo
+
+# LaTeX
+paper/latex
+
+# Reference papers (copyright) + private reading notes
+reference/
+
+# Video (internal)
+video/
