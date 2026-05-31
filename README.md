@@ -30,7 +30,7 @@
 | 2026 renormalisation | not observed in-sample (data ends 2026-05-26) | `notebooks/02_event_study.ipynb` |
 | OOS Sharpe (2019–2026), 63 trades, 83% hit | 1.02 (vs ~0.00 always-long) | `notebooks/03_backtest.ipynb` |
 | Max drawdown, OOS (avg hold 9.4d) | −$26.0/bbl | `notebooks/03_backtest.ipynb` |
-| Post-Feb-2026 rolling β vs pre-event | TBD | `notebooks/04_regime_drift.ipynb` |
+| Post-2026 β vs pre-event (relationship resilient) | 0.987 [0.768, 1.206] vs 1.105 — CI overlaps, no detectable break | `notebooks/04_regime_drift.ipynb` |
 
 ---
 
