@@ -28,8 +28,8 @@
 | Peak spread-z [0,+20]: historical vs 2026 | ≤ 3.1σ (median 2.95) vs ≈ +12σ | `notebooks/02_event_study.ipynb` |
 | Post-event vol ratio: historical vs 2026 | ~1.2× vs ~8.3× | `notebooks/02_event_study.ipynb` |
 | 2026 renormalisation | not observed in-sample (data ends 2026-05-26) | `notebooks/02_event_study.ipynb` |
-| OOS Sharpe (2019–present), test set | TBD | `notebooks/03_backtest.ipynb` |
-| Max drawdown, OOS | TBD | `notebooks/03_backtest.ipynb` |
+| OOS Sharpe (2019–2026), 63 trades, 83% hit | 1.02 (vs ~0.00 always-long) | `notebooks/03_backtest.ipynb` |
+| Max drawdown, OOS (avg hold 9.4d) | −$26.0/bbl | `notebooks/03_backtest.ipynb` |
 | Post-Feb-2026 rolling β vs pre-event | TBD | `notebooks/04_regime_drift.ipynb` |
 
 ---
