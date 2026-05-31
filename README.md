@@ -25,9 +25,9 @@
 | Cointegration β (log-Brent on log-WTI) | 1.094 (95% CI [1.086, 1.101]) | `notebooks/01_cointegration.ipynb` |
 | ECM half-life of mean reversion | 24.1 days | `notebooks/01_cointegration.ipynb` |
 | Engle-Granger cointegration p-value | < 0.001 (Johansen rank 1) | `notebooks/01_cointegration.ipynb` |
-| Peak spread, 2026 episode | ~$22 (z ≈ 17–21 vs pre-event) | `notebooks/02_event_study.ipynb` |
-| Days-to-peak: historical vs 2026 | 1–6 vs ~40 days | `notebooks/02_event_study.ipynb` |
-| Days to renormalisation, median historical | 10 days (2026 not renormalised in-sample) | `notebooks/02_event_study.ipynb` |
+| Peak spread-z [0,+20]: historical vs 2026 | ≤ 3.1σ (median 2.95) vs ≈ +12σ | `notebooks/02_event_study.ipynb` |
+| Post-event vol ratio: historical vs 2026 | ~1.2× vs ~8.3× | `notebooks/02_event_study.ipynb` |
+| 2026 renormalisation | not observed in-sample (data ends 2026-05-26) | `notebooks/02_event_study.ipynb` |
 | OOS Sharpe (2019–present), test set | TBD | `notebooks/03_backtest.ipynb` |
 | Max drawdown, OOS | TBD | `notebooks/03_backtest.ipynb` |
 | Post-Feb-2026 rolling β vs pre-event | TBD | `notebooks/04_regime_drift.ipynb` |
